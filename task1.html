@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 1 – Essential Academic and Employment Skills</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">E-Portfolio</a>
+      <button id="navToggle" aria-label="Toggle navigation" class="nav-toggle">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a aria-current="page" href="task1.html">Task 1</a></li>
+        <li><a href="task2.html">Task 2</a></li>
+        <li><a href="task3.html">Task 3</a></li>
+        <li><a href="task4.html">Task 4</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container section">
+    <h1>Task 1 – Essential Academic and Employment Skills in Software Engineering</h1>
+    <section class="two-col">
+      <article class="card">
+        <p>Success in software engineering depends on a blend of academic capabilities and transferable employability skills. Core academic foundations such as <span class="tooltip-term" tabindex="0" data-tooltip="The disciplined analysis and evaluation of information to guide beliefs and actions.">critical thinking</span>, research literacy, and structured writing enable evidence‑based decision‑making and clear knowledge transfer. Complementing these are workplace‑ready competencies including professional <span class="tooltip-term" tabindex="0" data-tooltip="Exchanging information clearly, concisely and appropriately across media and audiences.">communication</span>, teamwork, self‑management, and ethical judgment. Together, these skills support problem identification, solution design, and delivery at pace and quality expected by employers [1]–[3].</p>
+        <p>In practice, software roles involve incomplete requirements, trade‑offs between time, security and performance, and coordination across stakeholders. Academic skills help by making reasoning explicit: reading research or technical standards, extracting assumptions, and justifying design choices in clear reports. Employability skills then translate that reasoning into action—negotiating scope, clarifying expectations, and documenting decisions so others can maintain and extend the work [2], [3].</p>
+        <p>In digitally mediated environments, <span class="tooltip-term" tabindex="0" data-tooltip="Finding, evaluating, creating and communicating information using digital technologies.">digital literacy</span> and information management are essential. Graduates who can evaluate online sources, reference accurately using standards such as IEEE, and use collaborative platforms responsibly are better prepared to contribute from day one. Frameworks for digital capability emphasise safe and effective use of information, communication and collaboration tools, which directly supports professional conduct and credible evidence‑based writing [5]. Research also shows that employers value “power skills” such as adaptability, collaboration and integrity alongside technical knowledge, because teams rely on these behaviours to coordinate work and manage uncertainty [2].</p>
+        <p>For career progression, reflective practice is a catalyst for continuous improvement. Tracking feedback, analysing outcomes, and aligning development plans with role competencies builds confidence and employability. Practical strategies include maintaining annotated reading lists, using project logs to capture design decisions, and rehearsing presentations to strengthen delivery. Applied across modules and placements, these practices compound into domain expertise and professional credibility [3], [4].</p>
+        <p>Overall, investing in these academic and employment skills enables graduates to frame problems rigorously, collaborate effectively, and communicate insights with clarity. This combination improves early‑career performance and lays the groundwork for leadership in dynamic, technology‑rich workplaces [1]–[5].</p>
+      </article>
+      <aside class="card">
+       
+        <figure>
+          <img data-lightbox="image" data-full="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=60" alt="Brainstorming workshop with sticky notes">
+          <figcaption>Figure 1: Structured brainstorming supports critical thinking.</figcaption>
+        </figure>
+      </aside>
+    </section>
+    <details class="collapsible" open>
+      <summary>Reflection and Submission</summary>
+      <div class="content">
+        <p> I will tighten paraphrasing, synthesise across multiple high‑quality sources, and rely more on original diagrams/figures. I will also check quotation marks on any direct phrasing and ensure every paragraph includes at least one verified citation mapped to the IEEE‑formatted list below. Against the Generic Assessment Criteria, I would award myself 72% for clarity, structure, relevance, and accurate citation practice, with improvement needed in deeper critical comparison of sources and richer examples from real software projects. Next step: add one worked example linking competencies to a recent code review outcome and update visuals accordingly </p>      </div>
+    </details>
+    <section class="section">
+      <h2>References (IEEE)</h2>
+      <ol class="refs-list">
+        <li>[1] Skills You Need, “Essential Life Skills and Personal Development.” Available: <a href="https://www.skillsyouneed.com/">https://www.skillsyouneed.com/</a></li>
+        <li>[2] M. M. Robles, “Executive Perceptions of the Top 10 Soft Skills Needed in Today’s Workplace,” Business Communication Quarterly, vol. 75, no. 4, pp. 453–465, 2012.</li>
+        <li>[3] S. Cottrell, The Study Skills Handbook, 5th ed. London, UK: Macmillan Education, 2019.</li>
+        <li>[4] OpenAI, “ChatGPT,” personal communication, Feb. 2026.</li>
+        <li>[5] UK Government, “Essential Digital Skills Framework,” 2018. Available: <a href="https://www.gov.uk/government/publications/essential-digital-skills-framework">https://www.gov.uk/government/publications/essential-digital-skills-framework</a></li>
+      </ol>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© 2026 My E‑Portfolio</p>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var terms = document.querySelectorAll('.tooltip-term');
+      terms.forEach(function(t){ t.setAttribute('role','button'); t.setAttribute('aria-label','Definition tooltip'); });
+    });
+  </script>
+</body>
+</html>
